@@ -12,7 +12,6 @@ import (
 func main() {
 	cpuProfile := flag.String("profile", "", "write CPU profile to file")
 	flag.Parse()
-	println(*cpuProfile)
 	f, err := os.Create(*cpuProfile)
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "error: %v\n", err)

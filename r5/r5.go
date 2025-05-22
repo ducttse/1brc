@@ -51,7 +51,7 @@ func R5(inputFile string) {
 	fmt.Printf("read file took: %02.f\n", time.Since(beginReadFile).Seconds())
 
 	for k, v := range stationStat {
-		println(k, float64(v.minm)/10.0, float64(v.maxx)/10.0, float64(v.sum)/10.0/float64(v.cnt))
+		fmt.Printf("%s %0.1f %0.1f %0.1f\n", k, float64(v.minm)/10.0, float64(v.maxx)/10.0, float64(v.sum)/10.0/float64(v.cnt))
 	}
 
 }

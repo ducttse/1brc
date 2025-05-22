@@ -1,0 +1,10 @@
+Da Lat;19.2
+Omaha;12.5
+Niamey;20.0
+Sacramento;28.2
+Makurdi;36.5
+Parakou;41.7
+Saint Petersburg;-5.5
+Virginia Beach;28.9
+Baguio;20.2
+Hiroshima;8.7
